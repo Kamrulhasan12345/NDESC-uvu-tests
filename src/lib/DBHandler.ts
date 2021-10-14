@@ -16,7 +16,7 @@ export const registerUser = async (
 		if (!dataExists) {
 			return { code: 400 };
 		}
-		const password = await bcrypt.hash(user.password, global.saltR);
+		// const password = await bcrypt.hash(user.password, global.saltR);
 		return { code: 200 };
 	} catch (e) {
 		await handleE(e, "ERR RU502 (in registerUser())");

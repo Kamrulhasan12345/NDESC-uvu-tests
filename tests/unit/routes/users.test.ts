@@ -1,6 +1,6 @@
 import assert from "assert";
 import sinon, { SinonStub } from "sinon";
-import supertest from "supertest";
+import { makeFetch } from "supertest-fetch";
 
 import { describe } from "../../helpers/describe.js";
 import router from "../../../src/routes/users.js";
@@ -16,8 +16,7 @@ import {
 } from "../../helpers/variables.js";
 import Mail from "nodemailer/lib/mailer/index.js";
 
-const server = router.listen(0);
-const fetch = supertest(server);
+const fetch = makeFetch(router.listen(0));
 
 // describe("POST /users/signup", (it) => {
 // 	it.skip();
@@ -37,12 +36,12 @@ describe("GET /users/un/:username", (it) => {
 	it.after.each(() => (UserChild.restore(), UserOnce.restore()));
 
 	it("is returning correct data", async () => {
-		await fetch.get("/un/" + userValues.username).expect(200, aUser);
+		await fetch("/un/" + userValues.username).expect(200, aUser);
 	});
 
 	it("is returning user not found in some cases", async () => {
 		UserOnce.resolves(invalidData);
-		await fetch.get("/un/auser").expect(404, {
+		await fetch("/un/auser").expect(404, {
 			code: 404,
 			message: messages[404],
 		});
@@ -52,7 +51,7 @@ describe("GET /users/un/:username", (it) => {
 		const stubMailer = sinon.stub(Mail.prototype, "sendMail").resolves(true);
 		const stubConsole = sinon.stub(console, "error");
 		UserOnce.resolves({});
-		await fetch.get("/un/auser").expect(500, {
+		await fetch("/un/auser").expect(500, {
 			code: 500,
 			message: messages[500],
 			error: "FU501_33",
@@ -69,7 +68,7 @@ describe("GET /users/un/:username", (it) => {
 	// 		.returns(Promise.resolve(true));
 	// 	const stubConsole = sinon.stub(console, "error");
 	// 	UserOnce.returns(Promise.resolve({}));
-	// 	await fetch.get("/un/auser").expect(500, { message: messages.SERVER_500 });
+	// 	await fetch("/un/auser").expect(500, { message: messages.SERVER_500 });
 	// 	stubMailer.calledOnce, "Function handleE() should be called once:";
 	// 	assert(stubConsole.calledOnce, "Function handleE() should be called once:");
 	// 	stubMailer.restore();
@@ -97,12 +96,12 @@ describe("GET /users/sk/:sessionkey", (it) => {
 	);
 
 	it("is returning correct data", async () => {
-		await fetch.get("/sk/" + userValues.sessionkey).expect(200, aUser);
+		await fetch("/sk/" + userValues.sessionkey).expect(200, aUser);
 	});
 
 	it("is returning user not found in some cases", async () => {
 		UserOnce.resolves(invalidRefData);
-		await fetch.get("/sk/akey").expect(404, {
+		await fetch("/sk/akey").expect(404, {
 			code: 404,
 			message: messages[404],
 		});
@@ -112,7 +111,7 @@ describe("GET /users/sk/:sessionkey", (it) => {
 		const stubMailer = sinon.stub(Mail.prototype, "sendMail").resolves(true);
 		const stubConsole = sinon.stub(console, "error");
 		UserOnce.resolves({});
-		await fetch.get("/sk/akey").expect(500, {
+		await fetch("/sk/akey").expect(500, {
 			code: 500,
 			message: messages[500],
 			error: "FU501_33",
