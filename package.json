@@ -1,0 +1,50 @@
+{
+	"name": "ndesc",
+	"version": "0.0.1",
+	"description": "The internal API for Notre Dame Earth and Science Club official website",
+	"type": "module",
+	"main": "src/server.js",
+	"scripts": {
+		"start": "",
+		"dev": "node -r dotenv/config --experimental-loader ts-node/esm --experimental-specifier-resolution=node src/server.ts",
+		"test": "tsm -r dotenv/config node_modules/uvu/bin.js tests/unit",
+		"coverage": "c8 --include=src yarn test",
+		"report": "c8 report --reporter=text-lcov > coverage.lcov",
+		"lint": "eslint . --ext .ts"
+	},
+	"repository": "https://github.com/Kamrulhasan12345/NDESC.git",
+	"author": "NDESC",
+	"license": "MIT",
+	"private": true,
+	"dependencies": {
+		"@tinyhttp/app": "^2.0.10",
+		"@tinyhttp/dotenv": "^2.0.2",
+		"@tinyhttp/router": "^2.0.2",
+		"@types/bcrypt": "^5.0.0",
+		"@types/nodemailer": "^6.4.4",
+		"@types/uuid": "^8.3.1",
+		"bcrypt": "^5.0.1",
+		"body-parser": "^1.19.0",
+		"dotenv": "^10.0.0",
+		"firebase-admin": "^9.12.0",
+		"nodemailer": "^6.7.0",
+		"uuid": "^8.3.2"
+	},
+	"devDependencies": {
+		"@types/sinon": "^10.0.4",
+		"@types/supertest": "^2.0.11",
+		"@typescript-eslint/eslint-plugin": "^5.0.0",
+		"@typescript-eslint/parser": "^5.0.0",
+		"c8": "^7.10.0",
+		"eslint": "^8.0.0",
+		"prettier": "^2.4.1",
+		"sinon": "^11.1.2",
+		"supertest": "^6.1.6",
+		"supertest-fetch": "^1.4.3",
+		"ts-node": "^10.3.0",
+		"tsm": "^2.1.2",
+		"typescript": "^4.4.3",
+		"uvu": "^0.5.2",
+		"why-is-node-running": "^2.2.0"
+	}
+}
