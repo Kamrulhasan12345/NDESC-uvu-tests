@@ -19,7 +19,7 @@
 	"dependencies": {
 		"@tinyhttp/app": "^2.0.10",
 		"@tinyhttp/dotenv": "^2.0.2",
-		"@tinyhttp/router": "^2.0.2",
+		"@tinyhttp/router": "^2.0.3",
 		"@types/bcrypt": "^5.0.0",
 		"@types/nodemailer": "^6.4.4",
 		"@types/uuid": "^8.3.1",
