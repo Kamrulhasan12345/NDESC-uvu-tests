@@ -337,31 +337,31 @@
   resolved "https://registry.yarnpkg.com/@sinonjs/text-encoding/-/text-encoding-0.7.1.tgz#8da5c6530915653f3a1f38fd5f101d8c3f8079c5"
   integrity sha512-+iTbntw2IZPb/anVDbypzfQa+ay64MW0Zo8aJ8gZPWMMK6/OubMVb6lUPMagqjOPnmtauXnFCACVl3O7ogjeqQ==
 
-"@tinyhttp/accepts@2.0.3":
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/@tinyhttp/accepts/-/accepts-2.0.3.tgz#09d5039951c0ba176420a1f2a0dafc07c8a61ac1"
-  integrity sha512-oQFU9EiLRF8hobysfhtk6YUGBBBWYJKFM/p0Go+Co+9MrIJ3XJRtcwBoVPy9vLATi6taNwdNd89rNuhtL/LacQ==
+"@tinyhttp/accepts@2.0.5":
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/@tinyhttp/accepts/-/accepts-2.0.5.tgz#1b9292d1926301f4c3c5ad1c825f7688fd74f454"
+  integrity sha512-Y3s/uJ+Ju+joEOniWCjNvLh+f+V30pdO3eWniQLEZUD07YK19NPzq4lUiJrFd/OveWA6axZa1rd8gcXCdOxxAg==
   dependencies:
-    es-mime-types "^0.1.3"
+    es-mime-types "^0.1.4"
     negotiator "^0.6.2"
 
-"@tinyhttp/app@^2.0.10":
-  version "2.0.10"
-  resolved "https://registry.yarnpkg.com/@tinyhttp/app/-/app-2.0.10.tgz#582bfe1254d03d4cffe3d97b686344852eb30e54"
-  integrity sha512-qNbzl758CvT5f9Zt1vV0W1FL2ALXx9zr/RgqMWTZ3mrhM6l2kA8VFJkmKZ6dyZK/KJyq2fNhWqyQpiJpsf8jNw==
+"@tinyhttp/app@^2.0.16":
+  version "2.0.16"
+  resolved "https://registry.yarnpkg.com/@tinyhttp/app/-/app-2.0.16.tgz#70f70c5ae9db2b781ed6e12b8c9453d0e794b5a5"
+  integrity sha512-wM02ZL1i0bvQQi2S2pgmalflN2dynfpZC6ZXeNz/AcAOP4uqASrAV0hF4ghlD/2zTu5vsApRRfba3Swjqwm4bw==
   dependencies:
     "@tinyhttp/cookie" "2.0.3"
-    "@tinyhttp/proxy-addr" "2.0.2"
-    "@tinyhttp/req" "2.0.7"
-    "@tinyhttp/res" "2.0.8"
-    "@tinyhttp/router" "2.0.2"
-    header-range-parser "^1.0.0"
+    "@tinyhttp/proxy-addr" "2.0.3"
+    "@tinyhttp/req" "2.0.11"
+    "@tinyhttp/res" "2.0.12"
+    "@tinyhttp/router" "2.0.4"
+    header-range-parser "1.1.1"
     regexparam "^2.0.0"
 
-"@tinyhttp/content-disposition@2.0.4":
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/@tinyhttp/content-disposition/-/content-disposition-2.0.4.tgz#7a2bce7456cb39216732c22d4d5e89bd077f1fe6"
-  integrity sha512-SGU8nVfDbiJa5eCA7BWUEMjSaf/b6nLQHEzuzmKhA3BIGHuBWXSIcr1dGeLopmohQoZkIQfk5psM5TOgVgrraA==
+"@tinyhttp/content-disposition@2.0.5":
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/@tinyhttp/content-disposition/-/content-disposition-2.0.5.tgz#dc17d67b26697990bf0dac0d8f5ad03cc99b3d96"
+  integrity sha512-glfgD8Ae1HwF7QntvD1jAr/ieHmGmU4drcH7AeXkK6uj/GyCSRw9yPgSfYqjBkEeP1hR19ZTDi5rrKMIFifesA==
 
 "@tinyhttp/cookie-signature@2.0.2":
   version "2.0.2"
@@ -378,81 +378,86 @@
   resolved "https://registry.yarnpkg.com/@tinyhttp/dotenv/-/dotenv-2.0.2.tgz#c9e8aefdb315a094af3deac060463ba1463ca087"
   integrity sha512-r3YhxOA8hE9PyMgY4kuT/+ZpgKwMwbqA0LZW5hfewPXUo+M9nMySLyRb3IeGjrQtd8ii6ZC4poE1GmTeF8nE8w==
 
-"@tinyhttp/encode-url@2.0.3":
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/@tinyhttp/encode-url/-/encode-url-2.0.3.tgz#be96539f7411c8a9627dc53277d35cd297e3dbb8"
-  integrity sha512-bAKjBLhYTZZgLphZ9B09Q8bQ39RejEiB1+3Rjjmkb/Q2cIKOWvRNTgkeQ3D6ITefxW9KMPE9eab51PPYhFbvbg==
+"@tinyhttp/encode-url@2.0.4":
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/@tinyhttp/encode-url/-/encode-url-2.0.4.tgz#caa3d693801c8e7bb70ba80feee02f9a6d5eae55"
+  integrity sha512-vnofujyKQc5JlsqwSoQVskDIST0zmz8CRwckm/i1PFfvpMqRgzgbS1yFXhUNlb2ZDV4mKknCt6nf6drhJSVbuA==
 
 "@tinyhttp/etag@2.0.2":
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/@tinyhttp/etag/-/etag-2.0.2.tgz#f1ab0222aea8571b2320ec0c845acee45b144759"
   integrity sha512-utxkv5skxWJESUAKZk7F11DcgBiE4vBXiPfnWZcGNZDa6T372V2ESUD2Y7fV85bsC1/4ZrnnmS7lg9Nd401oLw==
 
-"@tinyhttp/forwarded@2.0.2":
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/@tinyhttp/forwarded/-/forwarded-2.0.2.tgz#367d147a02d76e8ac1071045b1230dd70f680527"
-  integrity sha512-q+l7xMyN7buYjUfWbepLM36lI7FZmv+sm0arqzFGrTVWfEbKLiHTv+5c7H3O8/aYcxuyR4cBUrmwT6jw4dZhFw==
+"@tinyhttp/forwarded@2.0.3":
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/@tinyhttp/forwarded/-/forwarded-2.0.3.tgz#5a31ae029cc0247dfbe6335f1a1e8fc4f46e56e7"
+  integrity sha512-K3309+ZuIL4nEAtBbXmigeuRbVYdDGiusT2niP/bSJbtrRhaGSIifYucEYPnOYiUzh+uxn0QpsOOjSKUCF4cXQ==
 
-"@tinyhttp/proxy-addr@2.0.2":
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/@tinyhttp/proxy-addr/-/proxy-addr-2.0.2.tgz#67295d50d3ee6a91a618b560bbdf7d48fd6f0b63"
-  integrity sha512-wuXpzG9XsUQ2/YvCL5BSvp1JXc5HIuXlVJhMqdC0wv8iKF3hHv62H5XVd/wvzo/OWgiqt4hjxA4wITzND5Ed+g==
+"@tinyhttp/proxy-addr@2.0.3":
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/@tinyhttp/proxy-addr/-/proxy-addr-2.0.3.tgz#2fc33f69573971d7f907e5166273528ef9e9b0f3"
+  integrity sha512-Fm1DTq2k4fqdTwK+UQ+YR+0zwv2cIV1lIfaW/VYM6Za7vTJHAphilf5IPkjyBsdf9Fa/jDwHo8WCak6yI2I+jQ==
   dependencies:
-    "@tinyhttp/forwarded" "2.0.2"
+    "@tinyhttp/forwarded" "2.0.3"
     ipaddr.js "^2.0.1"
 
-"@tinyhttp/req@2.0.7":
-  version "2.0.7"
-  resolved "https://registry.yarnpkg.com/@tinyhttp/req/-/req-2.0.7.tgz#de2f30e45516902faeafe6ddde9c1ea9391f6bdf"
-  integrity sha512-h40WP6ulEIiX3zAd/+nUs/rqIosiaXKPhKYwTqhlWkWqdqtKiLTqWXtGJFEafL03Vk0Tt+IzVYWduZDKGhyvdQ==
+"@tinyhttp/req@2.0.11":
+  version "2.0.11"
+  resolved "https://registry.yarnpkg.com/@tinyhttp/req/-/req-2.0.11.tgz#1ab9e8b9c08ae35d7319245fd11b8aa3aeb01432"
+  integrity sha512-Xaitcr2OKq0qqImG99jeDdH7wBEcCr0vkU/gogiCPRKwWp11vuXC0tKr8l4g8bKRK6dx/6thp8mFYnbhtJ8fKw==
   dependencies:
-    "@tinyhttp/accepts" "2.0.3"
-    "@tinyhttp/type-is" "2.0.2"
-    "@tinyhttp/url" "2.0.3"
+    "@tinyhttp/accepts" "2.0.5"
+    "@tinyhttp/type-is" "2.0.4"
+    "@tinyhttp/url" "2.0.5"
     es-fresh "^0.0.10"
-    header-range-parser "^1.0.0"
+    header-range-parser "^1.1.1"
 
-"@tinyhttp/res@2.0.8":
-  version "2.0.8"
-  resolved "https://registry.yarnpkg.com/@tinyhttp/res/-/res-2.0.8.tgz#9c6d506a48abcc3c08a4c8fb5130453668c3cd5f"
-  integrity sha512-WPn1ViwCxwey83Dq1/DBJCRM+QMRboDkoQFHiP8fsG/TNbcMZvR1nEpixX2gk6hCOOh14EeLF2PxJvipHXdWUw==
+"@tinyhttp/res@2.0.12":
+  version "2.0.12"
+  resolved "https://registry.yarnpkg.com/@tinyhttp/res/-/res-2.0.12.tgz#1027fc57307e396678171974cca666b87db02d8c"
+  integrity sha512-paHOddeGK4uaLknzrUWfPaRjMVTsrj9BjvNqEUOwtXS7OiIaD1Bm5pdlivD3wFz6h8uKXMKSj6nNKla4rOrmiQ==
   dependencies:
-    "@tinyhttp/content-disposition" "2.0.4"
+    "@tinyhttp/content-disposition" "2.0.5"
     "@tinyhttp/cookie" "2.0.3"
     "@tinyhttp/cookie-signature" "2.0.2"
-    "@tinyhttp/encode-url" "2.0.3"
-    "@tinyhttp/req" "2.0.7"
-    "@tinyhttp/send" "2.0.2"
+    "@tinyhttp/encode-url" "2.0.4"
+    "@tinyhttp/req" "2.0.11"
+    "@tinyhttp/send" "2.0.3"
     es-escape-html "^0.1.1"
-    es-mime-types "^0.1.3"
+    es-mime-types "^0.1.4"
     es-vary "^0.1.1"
 
-"@tinyhttp/router@2.0.2", "@tinyhttp/router@^2.0.2":
+"@tinyhttp/router@2.0.4":
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/@tinyhttp/router/-/router-2.0.4.tgz#d32e4deacacf09eb512fe574df1730279e3cc899"
+  integrity sha512-mO8jWrB951UTkX8akzhHa5UMjQKleNhbQDnd4EZSA7VOXE9n28tqHmYgg1G/czDL6gwRl6Bppj5crJIbvMDGwg==
+
+"@tinyhttp/router@^2.0.2":
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/@tinyhttp/router/-/router-2.0.2.tgz#d639ae244daa9c142116f6ae5b9c00b7db186881"
   integrity sha512-ABquD4gowsUbPGZs3qzMUXOm2FZuKKD0bPvBB4vgp8QeKJEQVVAMZrVFcQmW8rbT6JgoCYDbCmkwJq7yYl7xcg==
 
-"@tinyhttp/send@2.0.2":
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/@tinyhttp/send/-/send-2.0.2.tgz#0e1d510dd3e79ba20c3b23292f6e734ced67ba4d"
-  integrity sha512-dUWf1Mp5zHOE0NRcQtXzJoBGMQnD0FzlpArgE1cXJ8AJnvSFtSpDOvCNdDyQFSX3XuBh5owpDOBAGDOwOhSR9g==
+"@tinyhttp/send@2.0.3":
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/@tinyhttp/send/-/send-2.0.3.tgz#85f44b94c4ecc9566ea92d0cf1b06958f0b0329d"
+  integrity sha512-oU4Q6NJzXJeOVCdYbgtOFlq5viEpKUFkZVpbF5AqFD64yzPp2vX9MuiSVvrIzL9Ls2qR+OzWsrwuXIkKzjW+xg==
   dependencies:
     "@tinyhttp/etag" "2.0.2"
     es-content-type "^0.1.0"
-    es-mime-types "^0.1.3"
+    es-mime-types "^0.1.4"
 
-"@tinyhttp/type-is@2.0.2":
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/@tinyhttp/type-is/-/type-is-2.0.2.tgz#b4de9441e94c5554bd5996ac13dbcab28806cc95"
-  integrity sha512-b6ZHlR8JVVHmxzqvTSFgf7+B6lO/9M4cxfVzATbMlicffyUdR/QZjfHnJ+gshb9a0KMC5CJ34jOClPmtoHEfFQ==
+"@tinyhttp/type-is@2.0.4":
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/@tinyhttp/type-is/-/type-is-2.0.4.tgz#fcdaf81c6f0b5218b00c693f16bd72331b3df682"
+  integrity sha512-MpGt6ikISUVEhikmbv3tPgDNiy/9L3/WocR76bAIPp1JdyQlYqeQ1jCze5E3tPQ4gtTIb1rwdptHVBq4NkwwHw==
   dependencies:
     es-content-type "^0.1.0"
-    es-mime-types "^0.1.3"
+    es-mime-types "^0.1.4"
 
-"@tinyhttp/url@2.0.3":
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/@tinyhttp/url/-/url-2.0.3.tgz#1acf8cafd9a6092332f45872a8b713e0e5030aa4"
-  integrity sha512-0KRWSE0W4hjejHJ1ksmUIIp3Rvn/6nDa5sYQ7gjwsixYQ8J8vTSOtPI7FOkH9M/evsnCGrCYp5JNBnqTjkShTw==
+"@tinyhttp/url@2.0.5":
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/@tinyhttp/url/-/url-2.0.5.tgz#7f9e3615a5e8ad94c06cb3835aee42d9fd36126a"
+  integrity sha512-NXQAaUa7p5pgd1oUF5VuzLyqVVoMqNvraUI8QkSL0TlRSfgOVLg5PQ2xbk0TYU03SGwHm8w1ZBl9lymeJCLphg==
 
 "@tootallnate/once@2":
   version "2.0.0"
@@ -1187,12 +1192,12 @@ es-fresh@^0.0.10:
   resolved "https://registry.yarnpkg.com/es-fresh/-/es-fresh-0.0.10.tgz#c746507680980d5894c9bce017da8ff8fe98e2e6"
   integrity sha512-/e5etUqtxj7JktALldpsDNC84DOHavN9PqojnTTGeX1M2/Q4/SF8d55d7AsB3n66WYS43hdBbn0sAllto5kSIg==
 
-es-mime-types@^0.1.3:
-  version "0.1.3"
-  resolved "https://registry.yarnpkg.com/es-mime-types/-/es-mime-types-0.1.3.tgz#c96c02a87bbc477b5f56b2f59904893e62686e50"
-  integrity sha512-LcyBLQFEm2wnZdvbLYHDZ03Yb55hX/v7TNhPpgZKeOleJFTkwF4bYkkBFHRBEvg+9duGxx3cMYVkwBDMcA+LfA==
+es-mime-types@^0.1.4:
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/es-mime-types/-/es-mime-types-0.1.4.tgz#a88584e7fc9b589c289f125663d8e2f8d72d7df0"
+  integrity sha512-rUrmfrUIHU/4ykYB+YH80LDiSpmn6sE/A9E8EsFZP4LCtf/PH+ju6d6goFJ8fsGf81pRtQn1cJSmp8JGA9YkfQ==
   dependencies:
-    mime-db "^1.48.0"
+    mime-db "^1.50.0"
 
 es-vary@^0.1.1:
   version "0.1.1"
@@ -1778,10 +1783,15 @@ hash-stream-validation@^0.2.2:
   resolved "https://registry.yarnpkg.com/hash-stream-validation/-/hash-stream-validation-0.2.4.tgz#ee68b41bf822f7f44db1142ec28ba9ee7ccb7512"
   integrity sha512-Gjzu0Xn7IagXVkSu9cSFuK1fqzwtLwFhNhVL8IFJijRNMgUttFbBSIAzKuSIrsFMO1+g1RlsoN49zPIbwPDMGQ==
 
-header-range-parser@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/header-range-parser/-/header-range-parser-1.0.0.tgz#34498278bbfa848cb2f49e59b77bbcb055fb09af"
-  integrity sha512-QqUyYlYdAVqsd26xqPJwIUBrZe0z/iWeOcQnOxtAik1/so5wpLl72O5qL9CwSucsMIMeptu1x4OUSSU2pJauiA==
+header-range-parser@1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/header-range-parser/-/header-range-parser-1.1.1.tgz#52db1ec7cef1bc476b431757554e55001fc9bba8"
+  integrity sha512-aVuAHdlgxPCMkOtKTdUoH72eAHEAqmZqA+oQxvDv1DkYS50KgCt218AYd89/+Pd7+TFQimzn/9LNVfUPEBbRDQ==
+
+header-range-parser@^1.1.1:
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/header-range-parser/-/header-range-parser-1.1.3.tgz#6414b5b12e3b645d29d85225a58fd207d66d30ef"
+  integrity sha512-B9zCFt3jH8g09LR1vHL4pcAn8yMEtlSlOUdQemzHMRKMImNIhhszdeosYFfNW0WXKQtXIlWB+O4owHJKvEJYaA==
 
 html-escaper@^2.0.0:
   version "2.0.2"
@@ -2213,10 +2223,15 @@ micromatch@^4.0.4:
     braces "^3.0.1"
     picomatch "^2.2.3"
 
-mime-db@1.50.0, "mime-db@>= 1.43.0 < 2", mime-db@^1.48.0:
+mime-db@1.50.0, "mime-db@>= 1.43.0 < 2":
   version "1.50.0"
   resolved "https://registry.yarnpkg.com/mime-db/-/mime-db-1.50.0.tgz#abd4ac94e98d3c0e185016c67ab45d5fde40c11f"
   integrity sha512-9tMZCDlYHqeERXEHO9f/hKfNXhre5dK2eE/krIvUjZbS2KPcqGDfNShIWS1uW9XOTKQKqK6qbeOci18rbfW77A==
+
+mime-db@^1.50.0:
+  version "1.51.0"
+  resolved "https://registry.yarnpkg.com/mime-db/-/mime-db-1.51.0.tgz#d9ff62451859b18342d960850dc3cfb77e63fb0c"
+  integrity sha512-5y8A56jg7XVQx2mbv1lu49NR4dokRnhZYTtL+KGfaa27uq4pSTXkwQkFJl4pkRMyNFz/EtYDSkiiEHx3F7UN6g==
 
 mime-types@^2.0.8, mime-types@^2.1.12, mime-types@~2.1.24:
   version "2.1.33"
