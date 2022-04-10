@@ -17,7 +17,7 @@
 	"license": "MIT",
 	"private": true,
 	"dependencies": {
-		"@tinyhttp/app": "^2.0.10",
+		"@tinyhttp/app": "^2.0.20",
 		"@tinyhttp/dotenv": "^2.0.2",
 		"@tinyhttp/router": "^2.0.2",
 		"@types/bcrypt": "^5.0.0",
